@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clusters": "node src/clusters.js",
+    "build": "",
+    "start": "npm run clusters",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,7 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
+    "helmet": "^3.12.0",
     "mongoose": "^5.0.9"
   }
 }

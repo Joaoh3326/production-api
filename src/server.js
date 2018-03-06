@@ -1,4 +1,4 @@
-const app = require('./src/app');
+const app = require('./app');
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://joao:123@ds257858.mlab.com:57858/production', (err) => {
